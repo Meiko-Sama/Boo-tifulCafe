@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <div id="details">
+        <h1 id="title"></h1>
+        <img
+          class="iconCafe"
+          src="./img/iconLoginCadastri-removebg-preview.png"
+          alt="Icone Café"
+        />
+      </div>
+
+      <form id="cadastro" action="#">
+        <div class="input_data">
+          <input type="text" name="nome" id="nome" required />
+          <label for="">Nome do Usuário:</label>
+        </div>
+
+        <div class="input_data">
+          <input type="email" name="email" id="email" required />
+          <label for="#">Email: </label>
+        </div>
+
+        <div class="input_data">
+          <input type="tel" name="tel" id="tel" required />
+          <label for="#">Telefone: </label>
+        </div>
+
+        <div class="input_data">
+          <input type="password" name="password" id="password" required />
+          <label for="">Senha</label>
+        </div>
+
+        <div class="input_data">
+          <input
+            type="password"
+            name="password"
+            id="ConfirmPassword"
+            required
+          />
+          <label for="">Confirme a Senha:</label>
+        </div>
+
+        <div class="btnArea">
+          <p class="msgError"></p>
+          <button id="btnSubmit" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
